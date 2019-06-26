@@ -1,0 +1,31 @@
+{
+  "name": "restream-web",
+  "version": "1.0.0",
+  "description": "Web platform for enabling restreaming of contents using customizable filtering options",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "restream",
+    "live"
+  ],
+  "author": "FabiClawZ",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bufferutil": "^4.0.1",
+    "emit-stream": "^0.1.2",
+    "eris": "github:abalabahaha/eris#dev",
+    "eventemitter3": "^3.1.2",
+    "express": "^4.16.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-opus": "^0.3.1",
+    "pako": "^1.0.10",
+    "sodium-native": "^2.4.2",
+    "streamifier": "^0.1.1",
+    "uws": "^100.0.1",
+    "zlib-sync": "^0.1.4"
+  }
+}
